@@ -1,7 +1,8 @@
 <?php
 require_once __DIR__ . '/../config/database.php';
 require_once __DIR__ . '/../middleware/AuthMiddleware.php';
-require_once __DIR__ . '/../helper.php';
+require_once __DIR__ . '/../helpers/RateLimiter.php';
+require_once __DIR__ . '/../helpers/helper.php';
 require_once __DIR__ . '/../controllers/AuthController.php';
 require_once __DIR__ . '/../controllers/DepartmentController.php';
 require_once __DIR__ . '/../controllers/TicketController.php';
